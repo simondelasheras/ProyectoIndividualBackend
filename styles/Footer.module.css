@@ -1,0 +1,171 @@
+
+
+.footer {
+  background-color: #212529;
+  color: #fff;
+  padding: 30px; 
+  text-align: center; 
+}
+
+.footerContent {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.brand {
+  flex: 1 1 auto;
+  text-align: left; 
+  margin-top: 20px;
+}
+
+.brand h3 {
+  font-size: 1.8rem;
+  margin-bottom: 15px; 
+  font-weight: bold;
+}
+
+.brand span {
+  color: #ff8c00;
+}
+
+.brand p {
+  margin-top: 70px;
+  color: #999;
+  font-weight: bold;
+}
+
+.contactInfo {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column; 
+  text-align: left; 
+}
+
+.contactInfo div {
+  margin-top: 20px;
+  margin-bottom: 25px; 
+  display: flex;
+  align-items: center; 
+}
+
+.contactInfo img {
+  max-width: 40px;
+  margin-right: 12px;
+  border-radius: 45%;
+  -webkit-border-radius: 45%;
+  -moz-border-radius: 45%;
+  -ms-border-radius: 45%;
+  -o-border-radius: 45%;
+}
+
+.contactInfo p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.contactInfo a {
+  color: #ff8c00; 
+}
+
+
+.aboutUs {
+  flex: 1 1 auto;
+  text-align: right; 
+  max-width: 300px; 
+  margin-right: 10px; 
+}
+
+.aboutUs span {
+  color: #ff8c00;
+}
+
+.aboutUs h3 {
+  font-size: 1.8rem;
+  margin-bottom: 10px; 
+  text-align: center; 
+  font-weight: bold;
+  
+}
+
+.aboutUs p {
+  line-height: 1.4; 
+  margin-bottom: 5px;
+  text-align: justify; 
+  font-weight: 500;
+}
+
+.aboutUs p strong {
+  display: block; 
+  text-align: center; 
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-family: Verdana;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.socialLinks {
+  display: flex;
+  justify-content: center; 
+  margin-top: 20px;
+}
+
+.socialLinks a {
+  margin: 0 10px;
+}
+
+.socialLinks img {
+  max-width: 40px;
+  border-radius: 25%;
+  -webkit-border-radius: 25%;
+  -moz-border-radius: 25%;
+  -ms-border-radius: 25%;
+  -o-border-radius: 25%;
+}
+
+.socialLinks a[href*="youtube.com"] img {
+  height: 41px; 
+  width: 50px;
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .footer{
+    margin-top: 30px;
+  }
+ 
+  .footerContent {
+    flex-direction: column;
+    align-items: center; 
+  }
+
+  .brand,
+  .contactInfo,
+  .aboutUs,
+  .socialLinks {
+    flex: 1 1 100%;
+    margin-bottom: 25px;
+    text-align: center; 
+  }
+
+  .contactInfo div,
+  .aboutUs div {
+    margin-right: 0;
+  }
+
+  .contactInfo img {
+    max-width: 40px; 
+  }
+
+  .socialLinks img {
+    max-width: 40px; 
+  }
+
+}
+
+
+
+

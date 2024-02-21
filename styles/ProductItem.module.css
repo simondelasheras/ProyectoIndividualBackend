@@ -1,0 +1,151 @@
+
+.subtotalFrame {
+  border: 1px solid #666;
+  padding: 0.2em 0.5em;
+  border-radius: 3px;
+  display: inline-block;
+  background-color: white ;
+  color: black;
+  font-weight: 500;
+}
+
+.quantitySelector {
+  font-weight: 500; 
+}
+
+.outOfStock {
+  background-color: rgb(202, 197, 197); 
+  cursor: not-allowed;
+}
+
+
+
+.card {
+  background-color: #212529;
+  margin-bottom: 50px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+   width: 80%; 
+  max-width: 500px; 
+  height: 85%;
+  margin-left: 50px;
+  padding-bottom: 0px;
+}
+
+.card img {
+  width: 100%;
+  max-width: 100%;
+  height: 60%;
+  padding: 15px;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.card p,
+.card h5
+{
+  padding: 1px; 
+}
+
+.customSection {
+  background-color: #212529;
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.custom-background {
+  background-color: #e64843 !important;
+  border-color: #e64843 !important;
+}
+
+.custom-background:hover,
+.custom-background:focus {
+  background-color: #e64843;
+  outline: none;
+  filter: brightness(95%);
+  -webkit-filter: brightness(90%);
+}
+
+.custom-background:active {
+    filter: none;
+    opacity: 1;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    transform: scale(0.98);
+    -webkit-filter: none;
+}
+
+
+.customPlusSection {
+  background-color: #212529;
+  color: white;
+  border-top: 0px solid white;
+}
+
+
+
+.newButton {
+  position: absolute;
+  top: 15px; 
+  right: 10px; 
+  margin-top: 0; 
+  margin-right: 0; 
+  padding: 0; 
+  width: 25px;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+}
+
+.newButton:before,
+.newButton:after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 3px;
+  background-color: white;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.newButton:hover:before,
+.newButton:hover:after {
+  background-color: rgb(221, 214, 214); 
+}
+
+.newButton:before {
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.newButton:after {
+  transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.newButton:active {
+  transform: scale(0.9); 
+}
+
+.custom-card-title {
+  margin-top: 5px; 
+  margin-left: 15px;
+  margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .card {
+    height: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+
